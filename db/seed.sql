@@ -1,9 +1,3 @@
-DROP DATABASE IF EXISTS harry_potter_express;
-CREATE DATABASE harry_potter_express;
-\c harry_potter_express
-
--- add create tables here
-
 CREATE TABLE houses(
   id serial primary key,
   name varchar,
